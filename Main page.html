@@ -32,25 +32,27 @@
         
     }
     function feild(){
-        array=["","","","","","","","","","",""];
+        this.array=["","","","","","","","","","",""];
+        
     }
     
-    function move(i){
-
+    function move(i)
+    {
+        document.getElementById(""+i).innerHTML="asshole";
     }
 </script>
 </head>
 <body>
 
-<div class="box">sadsdaxd</div>
+<div class="box"onclick="move(0)" id="0">sadsdaxd</div>
 
-<div class="container" onclick="move(1)">
-<div class="box">sadsdaxd</div><div class="box">sadsdaxd</div><div class="box">sadsdaxd</div>
-<div class="box">sadsdaxd</div><div class="box">sadsdaxd</div><div class="box">sadsdaxd</div>
-<div class="box">sadsdaxd</div><div class="box">sadsdaxd</div><div class="box">sadsdaxd</div>
+<div class="container" >
+<div class="box" onclick="move(2)" >sadsdaxd</div><div class="box" onclick="move(3)">sadsdaxd</div><div class="box" onclick="move(4)">sadsdaxd</div>
+<div class="box" onclick="move(9)">sadsdaxd</div><div class="box" onclick="move(1)">sadsdaxd</div><div class="box" onclick="move(5)">sadsdaxd</div>
+<div class="box" onclick="move(8)">sadsdaxd</div><div class="box" onclick="move(7)">sadsdaxd</div><div class="box" onclick="move(6)">sadsdaxd</div>
 </div>
 
-<div class="box">sadsdaxd</div>
+<div class="box" onclick="move(10)">sadsdaxd</div>
 
 
 <h1>This is a Heading</h1>
